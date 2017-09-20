@@ -1,0 +1,46 @@
+body{ 
+    
+    }
+.font-smoothing {
+    -webkit-font-smoothing: antialiased;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    }
+
+li {
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 60px 91px 60px;
+    }  
+
+.ok{
+    background: url(yes.png) no-repeat 2% , url(seta.png) no-repeat 95%; 
+    background-color: #27ae60;
+    margin-bottom: 3px
+
+
+}
+.ok:hover{
+    background-color: #52be7f;
+}
+.no {
+    background: url(no.png) no-repeat 2%, url(seta.png) no-repeat 95%;
+    background-color: #4a4a4a; 
+    margin-bottom: 3px
+   }
+.no:hover{
+    background-color: #6e6e6e
+}
+a{
+    text-decoration: none;
+      
+}
+

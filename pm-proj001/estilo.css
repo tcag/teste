@@ -1,0 +1,51 @@
+body {
+    
+    background-color:#ecf0f1;
+    font-family:"arial";
+    height: 645px;
+        
+}
+
+h1{
+   color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    font-family: "arial";
+    line-height:0.1;
+    padding-top:10px
+            
+}
+
+h2{
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "arial"; 
+    line-height: 0
+    
+}
+
+ul{
+   list-style:none;
+   padding:0;
+   color:white;
+        
+    
+}
+
+li{
+    
+    height:42px;
+    background-color:#9b59b6;   
+    font-family: "arial";
+    display:flex;
+    align-items:center;
+    font-size:18px;
+    margin:12px;
+    text-indent: 1em;
+    
+}

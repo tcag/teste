@@ -1,0 +1,46 @@
+body{
+     -webkit-font-smoothing:antialiased;
+    margin: auto;
+    max-width: 960px;
+}
+.container{
+    background-image:url(playcodelogo.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-top: 100px;
+    
+ 
+   
+   }
+.card{
+    padding-left:20px;
+    float: left;
+    padding-bottom:0;
+}
+
+h2{
+   
+    width:300px;
+    color: #4a4a4a;
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    
+}
+@media screen (min-width:960px){
+.container {
+
+    width: 300px;
+    margin: 0 auto;
+    }}
+
+@media screen (min-width:960px){
+.card {
+        width: 300px;
+        padding-right: 20px;
+        float: left;
+    }}
+
